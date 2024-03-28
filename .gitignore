@@ -1,0 +1,7 @@
+backup/
+LLaVA/pretrained_weights
+*.pyc
+result
+*.png
+*/result*
+data/
