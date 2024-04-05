@@ -1,6 +1,4 @@
-# ImageNet-D: Benchmarking Neural Network Robustness on  Diffusion Synthetic Object
-
-<h1 align="center">CVPR 2024 Highlight</h1>
+#  ImageNet-D: Benchmarking Neural Network Robustness on  Diffusion Synthetic Object [CVPR 2024 Highlight]
 
 <p align="center">
   <a href="https://chenshuang-zhang.github.io"><strong>Chenshuang Zhang</strong></a>
