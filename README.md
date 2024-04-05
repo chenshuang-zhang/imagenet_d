@@ -1,4 +1,6 @@
-# ImageNet-D: Benchmarking Neural Network Robustness on  Diffusion Synthetic Object (CVPR 2024)
+# ImageNet-D: Benchmarking Neural Network Robustness on  Diffusion Synthetic Object
+
+<h1 align="center">CVPR 2024 Highlight</h1>
 
 <p align="center">
   <a href="https://chenshuang-zhang.github.io"><strong>Chenshuang Zhang</strong></a>
@@ -29,11 +31,11 @@ results in a significant accuracy drop to a range of vision models from the stan
 ## Dataset 
 The complete dataset is accessible via both Huggingface and Google Drive. Only one of these two links is needed to download the entire dataset. Choose the method that works best for you.
 
-Download from [Huggingface](https://huggingface.co/datasets/zcs15/ImageNet-D): `git lfs clone https://huggingface.co/datasets/zcs15/ImageNet-D`.
+Download from [Google drive link](https://drive.google.com/file/d/11zTXmg5yNjZwi8bwc541M1h5tPAVGeQc/view?usp=sharing), then unzip the tar file with `tar -xvf ImageNet-D.tar`.
 
 **Or**:
 
-Download from [Google drive link](https://drive.google.com/file/d/11zTXmg5yNjZwi8bwc541M1h5tPAVGeQc/view?usp=sharing), then unzip the tar file with `tar -xvf ImageNet-D.tar`.
+Download from [Huggingface](https://huggingface.co/datasets/zcs15/ImageNet-D): `git lfs clone https://huggingface.co/datasets/zcs15/ImageNet-D`.
 
 We organize all images into three folders according to its attributes, backgroud, texture, and material. The default dataset directory in the evaluation code is `./data/ImageNet-D/`, and you may change to your own directory. For evaluation of large VQA models like LLaVa, we attach the questions for each image in `questions` folder.
 
@@ -93,11 +95,15 @@ Compute the accuracy by running the following command.
 python compute_accuracy.py
 ```
 
+## Acknowledgement
+
+This repository is built upon the code of [GenInt](https://github.com/cvlab-columbia/GenInt) and [LLaVa](https://github.com/haotian-liu/LLaVA).
 
 ## BibTeX
 
-```bibtex
+If you find our work useful, please consider citing as follows.
 
+```bibtex
 @article{zhang2024imagenet_d,
   author    = {Zhang, Chenshuang and Pan, Fei and Kim, Junmo and Kweon, In So and Mao, Chengzhi},
   title     = {ImageNet-D: Benchmarking Neural Network Robustness on Diffusion Synthetic Object},
