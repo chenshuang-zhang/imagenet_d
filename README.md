@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2403.18775">Paper</a>,
-  <a href="https://chenshuang-zhang.github.io/imagenet_d/">Project</a>,
+  <a href="https://chenshuang-zhang.github.io/projects/imagenet_d/">Project</a>,
   <a href="https://github.com/chenshuang-zhang/imagenet_d">Code</a>,
   <a href="https://drive.google.com/file/d/11zTXmg5yNjZwi8bwc541M1h5tPAVGeQc/view?usp=sharing">Data</a>
 </p>
