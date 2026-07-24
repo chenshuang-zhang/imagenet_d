@@ -27,13 +27,9 @@ results in a significant accuracy drop to a range of vision models from the stan
 ![ImageNet-D comparison](images/test_set_comparison.png)
 
 ## Dataset 
-The complete dataset is accessible via both Huggingface and Google Drive. Only one of these two links is needed to download the entire dataset. Choose the method that works best for you.
+The complete dataset is accessible via both Huggingface.
 
-Download from [Google drive link](https://drive.google.com/file/d/11zTXmg5yNjZwi8bwc541M1h5tPAVGeQc/view?usp=sharing), then unzip the tar file with `tar -xvf ImageNet-D.tar`.
-
-**Or**:
-
-Download from [Huggingface](https://huggingface.co/datasets/zcs15/ImageNet-D): `git lfs clone https://huggingface.co/datasets/zcs15/ImageNet-D`.
+Download from [Huggingface](https://huggingface.co/datasets/zcs15/ImageNet-D): `https://huggingface.co/datasets/zcs15/ImageNet-D`.
 
 We organize all images into three folders according to its attributes, backgroud, texture, and material. The default dataset directory in the evaluation code is `./data/ImageNet-D/`, and you may change to your own directory. For evaluation of large VQA models like LLaVa, we attach the questions for each image in `questions` folder.
 
